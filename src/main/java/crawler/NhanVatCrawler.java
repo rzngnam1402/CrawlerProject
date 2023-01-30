@@ -66,7 +66,6 @@ public class NhanVatCrawler {
                             }
                         }
                     }
-
                 } catch (IOException err) {
                     throw new RuntimeException(err);
                 }
