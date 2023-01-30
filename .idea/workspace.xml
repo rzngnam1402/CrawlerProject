@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c463512-e7c4-4c77-b724-9b5fc43ea7d6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jsondata/NhanVat.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/crawler/NhanVatCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/NhanVatCrawler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/nhanvat/NhanVat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model_crawler/nhanvat/NhanVat.java" afterDir="false" />

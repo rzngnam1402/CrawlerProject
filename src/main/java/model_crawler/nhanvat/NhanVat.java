@@ -7,6 +7,9 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
+import java.io.Writer;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Objects;
 
@@ -87,7 +90,11 @@ public class NhanVat {
     }
 
     public static void getInfoFromNguoiKeSu(ArrayList<String> urls) throws IOException {
+        // create Gson instance
+        Gson gson = new Gson();
 
+        // create a writer
+        Writer writer = Files.newBufferedWriter(Paths.get("src/main/java/jsondata/NhanVat.json"));
         Element result;
         Elements results;
         for (String url : urls) {
@@ -192,15 +199,11 @@ public class NhanVat {
                     }
                 }
             }
-            System.out.println(nhanVat.thoiKy);
-
-            // chuyen doi Object sang json
-            Gson gson = new Gson();
-            String res = gson.toJson(nhanVat);
-
-            System.out.println(res);
+            // convert user object to JSON file
+            gson.toJson(nhanVat, writer);
         }
-
+        // close writer
+        writer.close();
     }
 
     protected void addLink(String link) {
