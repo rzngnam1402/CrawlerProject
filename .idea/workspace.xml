@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c463512-e7c4-4c77-b724-9b5fc43ea7d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ui/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crawler/CrawlerTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crawler/NhanVatCrawler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jsoup_1_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_15_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/diadiem/DiaDiem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model_crawler/diadiem/DiaDiem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/lehoi/LeHoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model_crawler/lehoi/LeHoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/nhanvat/NhanVat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model_crawler/nhanvat/NhanVat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/sukien/SuKien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model_crawler/sukien/SuKien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/thoiky/ThoiKy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model_crawler/thoiky/ThoiKy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HistoryProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crawler/NhatVatCrawler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model_crawler/nhanvat/NhanVat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model_crawler/nhanvat/NhanVat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "F:/Java oop project/jsoup-1.8.1.jar",
+    "last_opened_file_path": "F:/Java oop project/jsoup-1.15.3.jar",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
