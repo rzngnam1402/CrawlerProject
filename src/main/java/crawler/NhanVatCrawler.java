@@ -43,7 +43,7 @@ public class NhanVatCrawler {
                 }
             }
 
-            for (int i = 2; i <= 3; ++i) {
+            for (int i = 2; i <= numberOfPages; ++i) {
                 System.out.println("\nCurrent page: " + i);
                 String link = "https://nguoikesu.com/nhan-vat?start=" + String.valueOf((i - 1) * 5);
 
@@ -70,7 +70,7 @@ public class NhanVatCrawler {
                     throw new RuntimeException(err);
                 }
             }
-            System.out.println(detailedLinks);
+//            System.out.println(detailedLinks);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

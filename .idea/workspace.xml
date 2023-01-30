@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/crawler/NhanVatCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/NhanVatCrawler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/nhanvat/NhanVat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model_crawler/nhanvat/NhanVat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/crawler/CrawlerTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/crawler/CrawlerTester.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/crawler/NhanVatCrawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/crawler/NhanVatCrawler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/nhanvat/NhanVat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model_crawler/nhanvat/NhanVat.class" afterDir="false" />
     </list>
