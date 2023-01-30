@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c463512-e7c4-4c77-b724-9b5fc43ea7d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HistoryProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/diadiem/DiaDiem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/nhanvat/NhanVat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/diadiem/DiaDiem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model_crawler/diadiem/DiaDiem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/lehoi/LeHoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model_crawler/lehoi/LeHoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/nhanvat/NhanVat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model_crawler/nhanvat/NhanVat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/sukien/SuKien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model_crawler/sukien/SuKien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/thoiky/ThoiKy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model_crawler/thoiky/ThoiKy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +29,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2L0TLtjDbuhHTXcbxPaZVHFPdnu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
