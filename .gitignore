@@ -1,11 +1,16 @@
 ### IntelliJ IDEA ###
 out/
 target/
-.idea/workspace.xml
 !**/src/main/**/out/
 !**/src/test/**/out/
 !**/src/main/**/target/
 !**/src/test/**/target/
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+.idea/workspace.xml
+*.iml
 
 ### Eclipse ###
 .apt_generated
