@@ -11,5 +11,6 @@ module com.example.ui {
     opens com.example.ui to javafx.fxml;
 
     opens model_crawler.nhanvat to com.google.gson;
+    opens model_crawler.lehoi to com.google.gson;
     exports com.example.ui;
 }
