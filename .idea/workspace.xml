@@ -5,20 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c463512-e7c4-4c77-b724-9b5fc43ea7d6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jsondata/ThoiKy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_9_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HistoryProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/CrawlerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/CrawlerTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/NhanVatCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/NhanVatCrawler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jsondata/NhanVat.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jsondata/NhanVat.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/thoiky/ThoiKy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model_crawler/thoiky/ThoiKy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/crawler/CrawlerTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/crawler/NhanVatCrawler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/diadiem/DiaDiem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/lehoi/LeHoi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/nhanvat/NhanVat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/sukien/SuKien.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/thoiky/ThoiKy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/crawler/NhanVatCrawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/crawler/NhanVatCrawler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/thoiky/ThoiKy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model_crawler/thoiky/ThoiKy.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

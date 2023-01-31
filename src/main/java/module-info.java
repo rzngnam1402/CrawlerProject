@@ -6,9 +6,10 @@ module com.example.ui {
 //    requires org.kordamp.bootstrapfx.core;
 
     requires org.jsoup;
-
     requires com.google.gson;
 
     opens com.example.ui to javafx.fxml;
+
+    opens model_crawler.nhanvat to com.google.gson;
     exports com.example.ui;
 }
