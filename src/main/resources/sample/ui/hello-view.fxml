@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="1000" maxWidth="1200" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Button defaultButton="true" layoutX="514.0" layoutY="125.0" mnemonicParsing="false" text="Nhân vật"/>
+        <Button layoutX="514.0" layoutY="180.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="64.0"
+                text="Sự kiện"/>
+        <Button layoutX="514.0" layoutY="235.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="64.0"
+                text="Thời kì"/>
+        <Button layoutX="514.0" layoutY="286.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="64.0"
+                text="Lễ hội"/>
+        <Button layoutX="514.0" layoutY="336.0" mnemonicParsing="false" text="Địa điểm"/>
+        <Button layoutX="500.0" layoutY="29.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="77.0"
+                text="Tìm Kiếm"/>
+        <TextField layoutX="50.0" layoutY="29.0" prefHeight="26.0" prefWidth="435.0"/>
+        <ScrollBar layoutX="478.0" layoutY="93.0" orientation="VERTICAL" prefHeight="284.0" prefWidth="14.0"/>
+        <TableView layoutX="50.0" layoutY="94.0" prefHeight="284.0" prefWidth="426.0">
+            <columns>
+                <TableColumn prefWidth="75.0" text="Tên"/>
+                <TableColumn prefWidth="75.0" text="Năm Sinh"/>
+                <TableColumn prefWidth="75.0" text="Năm Mất"/>
+                <TableColumn prefWidth="75.0" text="Nơi Sinh"/>
+                <TableColumn prefWidth="75.0" text="Vợ"/>
+            </columns>
+        </TableView>
+
+
+    </children>
+</AnchorPane>

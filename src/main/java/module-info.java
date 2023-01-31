@@ -1,14 +1,8 @@
-module com.example.ui {
+module sample.ui {
     requires javafx.controls;
     requires javafx.fxml;
 
-//    requires org.controlsfx.controls;
-//    requires org.kordamp.bootstrapfx.core;
 
-    requires org.jsoup;
-
-    requires com.google.gson;
-
-    opens com.example.ui to javafx.fxml;
-    exports com.example.ui;
+    opens sample.ui to javafx.fxml;
+    exports sample.ui;
 }
