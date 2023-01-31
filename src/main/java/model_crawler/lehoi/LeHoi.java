@@ -1,4 +1,77 @@
 package model_crawler.lehoi;
 
+import com.google.gson.Gson;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
+import java.io.IOException;
+import java.io.Writer;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+
 public class LeHoi {
+    protected String ngayBatDau;
+    protected String viTri;
+    protected String tenLeHoi;
+    protected String lanDauToChuc;
+    protected ArrayList<String> nhanVatLienQuan;
+    protected String ghiChu;
+
+    public LeHoi(){
+        this.ngayBatDau = "Không rõ";
+        this.viTri = "Không rõ";
+        this.tenLeHoi = "Không rõ";
+        this.lanDauToChuc = "Không rõ";
+        this.nhanVatLienQuan = new ArrayList<>();
+        this.ghiChu = "Không có";
+    }
+
+    public static void getInfoLeHoiFromWikipedia(String url) throws IOException {
+        // create Gson instance
+        Gson gson = new Gson();
+
+        // create a writer
+        Writer writer = Files.newBufferedWriter(Paths.get("src/main/java/jsondata/LeHoi.json"));
+        final Document doc = Jsoup.connect(url)
+                .ignoreContentType(true)
+                .timeout(0)
+                .get();
+        LeHoi lehoiData = new LeHoi();
+        Elements lehoiTable = doc.select("table.prettytable.wikitable");
+        Elements lehoiRecords = lehoiTable.select("tr");
+        // int i=1;
+        for(Element lehoiRecord:lehoiRecords) {
+            Elements lehoi = lehoiRecord.select("td");
+            if(lehoi.size()==6) {
+                if(!lehoi.get(0).text().equals("")){
+                    lehoiData.ngayBatDau = lehoi.get(0).text();
+                }
+                if(!lehoi.get(1).text().equals("")){
+                    lehoiData.viTri = lehoi.get(1).text();
+                }
+                if(!lehoi.get(2).text().equals("")){
+                    lehoiData.tenLeHoi = lehoi.get(2).text();
+                }
+                if(!lehoi.get(3).text().equals("")){
+                    lehoiData.lanDauToChuc = lehoi.get(3).text();
+                }
+                if(!lehoi.get(4).text().equals("")){
+                    String[] relatedChars = lehoi.get(4).text().split(", ");
+                    for (String relatedChar : relatedChars) {
+                        lehoiData.nhanVatLienQuan.add(relatedChar);
+                    }
+                }
+                if(!lehoi.get(5).text().equals("")){
+                    lehoiData.ghiChu = lehoi.get(5).text();
+                }
+                // i++;
+            }
+            gson.toJson(lehoiData, writer);
+        }
+        // close writer
+        writer.close();
+    }
 }

@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c463512-e7c4-4c77-b724-9b5fc43ea7d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ui/nhanvat-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ui/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ui/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/CrawlerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/CrawlerTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jsondata/ThoiKy.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jsondata/ThoiKy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/thoiky/ThoiKy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model_crawler/thoiky/ThoiKy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/crawler/CrawlerTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/crawler/CrawlerTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/thoiky/ThoiKy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model_crawler/thoiky/ThoiKy.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

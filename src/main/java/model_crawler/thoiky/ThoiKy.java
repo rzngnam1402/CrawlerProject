@@ -19,7 +19,7 @@ public class ThoiKy {
     protected String thoiKy;
     protected String queHuong;
     protected String kinhDo;
-    protected String thoiGian;
+    protected String triVi;
     protected ArrayList<String> cacVua;
 
     public ThoiKy() {
@@ -27,17 +27,16 @@ public class ThoiKy {
         this.thoiKy = "Chưa rõ";
         this.queHuong = "Chưa rõ";
         this.kinhDo = "Chưa rõ";
-        this.thoiGian = "Chưa rõ";
+        this.triVi = "Chưa rõ";
         this.cacVua = new ArrayList<>();
     }
 
-    public static ThoiKy getInfoFromWiki(String url) {
+    public static void getInfoFromWiki(String url) {
         try {
             Gson gson = new Gson();
 
             // create a writer
             Writer writer = Files.newBufferedWriter(Paths.get("src/main/java/jsondata/ThoiKy.json"));
-            ThoiKy motThoiKy = new ThoiKy();
 
             final Document doc = Jsoup.connect(url)
                     .ignoreContentType(true)
@@ -65,7 +64,9 @@ public class ThoiKy {
                         Matcher m = p.matcher(titleSpanContent);
 
                         if (m.find()) {
-                            String mocThoiKy = "";
+                            ThoiKy motThoiKy = new ThoiKy();
+                            String mocThoiKy = titleSpanContent;
+                            String tenTrieuDai = "";
                             String nguoiSangLap = "Chưa rõ";
                             String kinhDo = "Chưa rõ";
                             String queHuong = "Chưa rõ";
@@ -80,18 +81,18 @@ public class ThoiKy {
                                         String eraNameEleContent = eraNameElement.text();
                                         int countParen = (int) eraNameEleContent.chars().filter(c -> c == '(').count();
                                         if (countParen == 0) {
-                                            mocThoiKy = eraNameEleContent;
+                                            tenTrieuDai = eraNameEleContent;
                                         } else if (countParen == 1) {
                                             int startParen = eraNameEleContent.indexOf("(");
                                             int endParen = eraNameEleContent.indexOf(")");
-                                            mocThoiKy = eraNameEleContent.substring(0, startParen - 1).trim();
+                                            tenTrieuDai = eraNameEleContent.substring(0, startParen - 1).trim();
                                             mocThoiGian = eraNameEleContent.substring(startParen + 1, endParen).trim();
                                         } else if (countParen == 2) {
                                             int startParenFirst = eraNameEleContent.indexOf("(");
                                             int endParenFirst = eraNameEleContent.indexOf(")");
                                             int startParenSec = eraNameEleContent.lastIndexOf("(");
                                             int endParenSec = eraNameEleContent.lastIndexOf(")");
-                                            mocThoiKy = eraNameEleContent.substring(0, startParenFirst - 1);
+                                            tenTrieuDai = eraNameEleContent.substring(0, startParenFirst - 1);
                                             String firstParenContent = eraNameEleContent.substring(startParenFirst + 1, endParenFirst);
                                             String secondParenContent = eraNameEleContent.substring(startParenSec + 1, endParenSec);
                                             String[] firstParenSplit = firstParenContent.split("–");
@@ -116,18 +117,18 @@ public class ThoiKy {
                                             String eraNameEleContent = eraNameElement.text();
                                             int countParen = (int) eraNameEleContent.chars().filter(c -> c == '(').count();
                                             if (countParen == 0) {
-                                                mocThoiKy = eraNameEleContent;
+                                                tenTrieuDai = eraNameEleContent;
                                             } else if (countParen == 1) {
                                                 int startParen = eraNameEleContent.indexOf("(");
                                                 int endParen = eraNameEleContent.indexOf(")");
-                                                mocThoiKy = eraNameEleContent.substring(0, startParen - 1).trim();
+                                                tenTrieuDai = eraNameEleContent.substring(0, startParen - 1).trim();
                                                 mocThoiGian = eraNameEleContent.substring(startParen + 1, endParen).trim();
                                             } else if (countParen == 2) {
                                                 int startParenFirst = eraNameEleContent.indexOf("(");
                                                 int endParenFirst = eraNameEleContent.indexOf(")");
                                                 int startParenSec = eraNameEleContent.lastIndexOf("(");
                                                 int endParenSec = eraNameEleContent.lastIndexOf(")");
-                                                mocThoiKy = eraNameEleContent.substring(0, startParenFirst - 1);
+                                                tenTrieuDai = eraNameEleContent.substring(0, startParenFirst - 1);
                                                 String firstParenContent = eraNameEleContent.substring(startParenFirst + 1, endParenFirst);
                                                 String secondParenContent = eraNameEleContent.substring(startParenSec + 1, endParenSec);
                                                 String[] firstParenSplit = firstParenContent.split("–");
@@ -156,8 +157,8 @@ public class ThoiKy {
                                             Element firstTd = rows.get(j).selectFirst("td");
                                             if (firstTd != null) {
                                                 String eraValue = firstTd.text();
-                                                if (!mocThoiKy.equals("")) {
-                                                    if (eraValue.contains(mocThoiKy)) {
+                                                if (!tenTrieuDai.equals("")) {
+                                                    if (eraValue.contains(tenTrieuDai)) {
                                                         Elements currentRowTds = rows.get(j).select("td");
                                                         currentRowTds.get(1).select("sup").remove();
                                                         currentRowTds.get(2).select("sup").remove();
@@ -170,19 +171,21 @@ public class ThoiKy {
                                                 }
                                             }
                                         }
-                                        System.out.println("Belongs to timestamp: " + mocThoiKy);
-                                        System.out.println("Hometown: " + queHuong);
-                                        System.out.println("Founder: " + nguoiSangLap);
-                                        System.out.println("Location: " + kinhDo);
-                                        System.out.println("Time: " + mocThoiGian);
 
+                                        System.out.println("\nTên triều đại: " + tenTrieuDai);
+                                        System.out.println("Mốc thời kỳ: " + mocThoiKy);
+                                        System.out.println("Quê hương: " + queHuong);
+                                        System.out.println("Người sáng lập: " + nguoiSangLap);
+                                        System.out.println("Kinh Đô: " + kinhDo);
+                                        System.out.println("Trị Vì: " + mocThoiGian);
 
+                                        motThoiKy.tenTrieuDai = tenTrieuDai;
                                         motThoiKy.thoiKy = mocThoiKy;
                                         motThoiKy.queHuong = queHuong;
                                         motThoiKy.kinhDo = kinhDo;
-                                        motThoiKy.thoiGian = mocThoiGian;
+                                        motThoiKy.triVi = mocThoiGian;
 
-                                        return motThoiKy;
+                                        gson.toJson(motThoiKy, writer);
                                     }
                                 }
                             }
@@ -194,13 +197,8 @@ public class ThoiKy {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return null;
     }
 
-    public static void main(String[] args) {
-        ThoiKy motThoiKy = getInfoFromWiki("https://vi.wikipedia.org/wiki/Vua_Việt_Nam");
-        System.out.println(motThoiKy.tenTrieuDai);
-    }
 
     protected void addVua(String vua) {
         if (cacVua.contains(vua)) {
