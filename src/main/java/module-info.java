@@ -12,5 +12,6 @@ module com.example.ui {
 
     opens model_crawler.nhanvat to com.google.gson;
     opens model_crawler.lehoi to com.google.gson;
+    opens model_crawler.thoiky to com.google.gson;
     exports com.example.ui;
 }
