@@ -13,7 +13,7 @@
         <Button layoutX="514.0" layoutY="336.0" mnemonicParsing="false" text="Địa điểm" />
         <Button layoutX="500.0" layoutY="29.0" mnemonicParsing="false" onAction="#search" prefHeight="26.0" prefWidth="77.0" text="Tìm Kiếm" />
         <TextField fx:id="searchBar" layoutX="50.0" layoutY="29.0" prefHeight="26.0" prefWidth="435.0" />
-        <ListView fx:id="listView" layoutX="24.0" layoutY="69.0" prefHeight="309.0" prefWidth="553.0" />
+        <ListView fx:id="listView" layoutX="24.0" layoutY="69.0" prefHeight="310.0" prefWidth="461.0" />
 <!--        <ScrollBar layoutX="478.0" layoutY="93.0" orientation="VERTICAL" prefHeight="284.0" prefWidth="14.0" />-->
 <!--        <TableView layoutX="50.0" layoutY="94.0" prefHeight="284.0" prefWidth="426.0">-->
 <!--            <columns>-->
