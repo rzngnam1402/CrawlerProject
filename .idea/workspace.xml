@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c463512-e7c4-4c77-b724-9b5fc43ea7d6" name="Changes" comment="lehoi-crawler">
+    <list default="true" id="6c463512-e7c4-4c77-b724-9b5fc43ea7d6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jsondata/LeHoi.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jsondata/LeHoi.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jsondata/LeHoi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/CrawlerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/CrawlerTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/lehoi/LeHoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model_crawler/lehoi/LeHoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/crawler/CrawlerTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/crawler/CrawlerTester.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/lehoi/LeHoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model_crawler/lehoi/LeHoi.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,14 +75,6 @@
       <workItem from="1675131815619" duration="225000" />
       <workItem from="1675132054479" duration="442000" />
     </task>
-    <task id="LOCAL-00001" summary="lehoi-crawler">
-      <created>1675183872699</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1675183872699</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,8 +93,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="lehoi-crawler" />
-    <option name="LAST_COMMIT_MESSAGE" value="lehoi-crawler" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
