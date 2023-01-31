@@ -39,37 +39,42 @@ public class LeHoi {
                 .ignoreContentType(true)
                 .timeout(0)
                 .get();
+        ArrayList<LeHoi> danhSachLehoi = new ArrayList<LeHoi>();
         LeHoi lehoiData = new LeHoi();
         Elements lehoiTable = doc.select("table.prettytable.wikitable");
         Elements lehoiRecords = lehoiTable.select("tr");
-        // int i=1;
+        int i=1;
         for(Element lehoiRecord:lehoiRecords) {
-            Elements lehoi = lehoiRecord.select("td");
-            if(lehoi.size()==6) {
-                if(!lehoi.get(0).text().equals("")){
-                    lehoiData.ngayBatDau = lehoi.get(0).text();
-                }
-                if(!lehoi.get(1).text().equals("")){
-                    lehoiData.viTri = lehoi.get(1).text();
-                }
-                if(!lehoi.get(2).text().equals("")){
-                    lehoiData.tenLeHoi = lehoi.get(2).text();
-                }
-                if(!lehoi.get(3).text().equals("")){
-                    lehoiData.lanDauToChuc = lehoi.get(3).text();
-                }
-                if(!lehoi.get(4).text().equals("")){
-                    String[] relatedChars = lehoi.get(4).text().split(", ");
-                    for (String relatedChar : relatedChars) {
-                        lehoiData.nhanVatLienQuan.add(relatedChar);
+            if(i == 1) i++;
+            else {
+                Elements lehoi = lehoiRecord.select("td");
+                if (lehoi.size() == 6) {
+                    if (!lehoi.get(0).text().equals("")) {
+                        lehoiData.ngayBatDau = lehoi.get(0).text();
                     }
+                    if (!lehoi.get(1).text().equals("")) {
+                        lehoiData.viTri = lehoi.get(1).text();
+                    }
+                    if (!lehoi.get(2).text().equals("")) {
+                        lehoiData.tenLeHoi = lehoi.get(2).text();
+                    }
+                    if (!lehoi.get(3).text().equals("")) {
+                        lehoiData.lanDauToChuc = lehoi.get(3).text();
+                    }
+                    if (!lehoi.get(4).text().equals("")) {
+                        String[] relatedChars = lehoi.get(4).text().split(", ");
+                        for (String relatedChar : relatedChars) {
+                            lehoiData.nhanVatLienQuan.add(relatedChar);
+                        }
+                    }
+                    if (!lehoi.get(5).text().equals("")) {
+                        lehoiData.ghiChu = lehoi.get(5).text();
+                    }
+                    i++;
+                    danhSachLehoi.add(lehoiData);
                 }
-                if(!lehoi.get(5).text().equals("")){
-                    lehoiData.ghiChu = lehoi.get(5).text();
-                }
-                // i++;
+                gson.toJson(danhSachLehoi, writer);
             }
-            gson.toJson(lehoiData, writer);
         }
         // close writer
         writer.close();
