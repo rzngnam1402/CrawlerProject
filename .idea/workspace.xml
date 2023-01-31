@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c463512-e7c4-4c77-b724-9b5fc43ea7d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jsondata/ThoiKy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_9_0.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ui/nhanvat-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HistoryProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/CrawlerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/CrawlerTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/NhanVatCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/NhanVatCrawler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jsondata/NhanVat.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jsondata/NhanVat.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/thoiky/ThoiKy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model_crawler/thoiky/ThoiKy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/crawler/NhanVatCrawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/crawler/NhanVatCrawler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/thoiky/ThoiKy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model_crawler/thoiky/ThoiKy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ui/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ui/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,20 +48,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mikeljinx/.jdks/openjdk-19.0.2&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Users/Mikeljinx/git/VietnamHistory/UI&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/2. SoICT/2022_1/OOP/CrawlerProject/src/main/resources/com/example/ui",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "two.files.diff.last.used.folder": "C:/Users/Mikeljinx/git/VietnamHistory/UI"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2. SoICT\2022_1\OOP\CrawlerProject\src\main\resources\com\example\ui" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
