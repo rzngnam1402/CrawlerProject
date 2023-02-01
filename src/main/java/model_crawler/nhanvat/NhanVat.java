@@ -69,8 +69,8 @@ public class NhanVat {
         if (info != null) {
             for (Element row : info.select("tr")) {
                 if (row.selectFirst("th:contains(Triều Đại)") != null || row.selectFirst("th:contains(Thời kỳ)") != null || row.selectFirst("th:contains(Hoàng tộc)") != null || row.selectFirst("th:contains(Kỷ nguyên)") != null) {
-                    if (row.selectFirst("td") == null) {
-                        nhanVat.thoiKy = row.nextElementSibling().text();
+                    if (row.selectFirst("td") == null ) {
+                            nhanVat.thoiKy = row.nextElementSibling().text();
                     } else {
                         nhanVat.thoiKy = row.selectFirst("td").text();
                     }
@@ -106,6 +106,8 @@ public class NhanVat {
             NhanVat nhanVat = new NhanVat();
             nhanVat.addLink(url);
 
+            System.out.println("Crawling: "+ url);
+
 
             nhanVat.ten = Objects.requireNonNull(doc.selectFirst("div.page-header h2")).text();
             Element info = doc.selectFirst(".infobox");
@@ -136,31 +138,31 @@ public class NhanVat {
                             nhanVat.tenKhac = row.selectFirst("td").text();
                         }
                     }
-                    if (row.selectFirst("th:contains(Sinh)") != null) {
-                        nhanVat.sinh = row.selectFirst("td").text();
+                    if (row.selectFirst("th:contains(Sinh)") != null && row.selectFirst("td") != null) {
+                        nhanVat.sinh = Objects.requireNonNull(row.selectFirst("td")).text();
                     }
-                    if (row.selectFirst("th:contains(Nguyên nhân mất)") != null) {
+                    if (row.selectFirst("th:contains(Nguyên nhân mất)") != null && row.selectFirst("td") != null) {
                         nhanVat.nguyenNhanMat = row.selectFirst("td").text();
                     }
-                    if (row.selectFirst("th:contains(Quê quán)") != null) {
+                    if (row.selectFirst("th:contains(Quê quán)") != null && row.selectFirst("td") != null) {
                         nhanVat.queQuan = row.selectFirst("td").text();
                     }
-                    if (row.selectFirst("th:contains(Đảng phái)") != null) {
+                    if (row.selectFirst("th:contains(Đảng phái)") != null && row.selectFirst("td") != null) {
                         nhanVat.dangPhai = row.selectFirst("td").text();
                     }
-                    if (row.selectFirst("th:contains(Nơi ở)") != null) {
+                    if (row.selectFirst("th:contains(Nơi ở)") != null && row.selectFirst("td") != null) {
                         nhanVat.diaChi = row.selectFirst("td").text();
                     }
-                    if (row.selectFirst("th:contains(Dân tộc)") != null) {
+                    if (row.selectFirst("th:contains(Dân tộc)") != null && row.selectFirst("td") != null) {
                         nhanVat.danToc = row.selectFirst("td").text();
                     }
-                    if (row.selectFirst("th:contains(Học vấn)") != null) {
+                    if (row.selectFirst("th:contains(Học vấn)") != null && row.selectFirst("td") != null) {
                         nhanVat.hocVan = row.selectFirst("td").text();
                     }
-                    if (row.selectFirst("th:contains(Sinh)") != null) {
+                    if (row.selectFirst("th:contains(Sinh)") != null && row.selectFirst("td") != null) {
                         nhanVat.sinh = row.selectFirst("td").text();
                     }
-                    if (row.selectFirst("th:contains(Mất)") != null) {
+                    if (row.selectFirst("th:contains(Mất)") != null && row.selectFirst("td") != null) {
                         nhanVat.mat = row.selectFirst("td").text();
                     }
                     if (row.selectFirst("th:contains(An táng)") != null || row.selectFirst("th:contains(Nơi an nghỉ)") != null) {
@@ -169,7 +171,7 @@ public class NhanVat {
                     if (row.selectFirst("th:contains(Thân phụ)") != null || row.selectFirst("th:contains(Cha mẹ)") != null) {
                         nhanVat.thanPhu = row.selectFirst("td").text();
                     }
-                    if (row.selectFirst("th:contains(Thân mẫu)") != null) {
+                    if (row.selectFirst("th:contains(Thân mẫu)") != null && row.selectFirst("td") != null) {
                         nhanVat.thanMau = row.selectFirst("td").text();
                     }
                     if ((row.selectFirst("th:contains(Phối ngẫu)") != null || row.selectFirst("th:contains(Phu quân)") != null) && row.selectFirst("td") != null) {
