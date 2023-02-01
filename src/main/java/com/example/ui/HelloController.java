@@ -10,6 +10,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -33,29 +34,6 @@ public class HelloController implements Initializable {
     private ListView<String> listView;
     private Button button;
     private Label label;
-    public HelloController() {
-
-    }
-
-    public void NhatVatButton(ActionEvent event) {
-//       HelloApplication.startNhatVat();
-    }
-
-    public void ThoiKiButton(ActionEvent event) {
-
-    }
-
-    public void SuKienButton(ActionEvent event) {
-
-    }
-
-    public void DiaDiemButton(ActionEvent event) {
-
-    }
-
-    public void LeHoiButton(ActionEvent event) {
-
-    }
 
     @FXML
     void search(ActionEvent event) {

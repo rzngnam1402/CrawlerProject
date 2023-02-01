@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c463512-e7c4-4c77-b724-9b5fc43ea7d6" name="Changes" comment="" />
+    <list default="true" id="6c463512-e7c4-4c77-b724-9b5fc43ea7d6" name="Changes" comment="lehoi-crawler">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/SceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ui/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ui/hello-view.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,6 +82,7 @@
       <updated>1675006948998</updated>
       <workItem from="1675131815619" duration="225000" />
       <workItem from="1675132054479" duration="442000" />
+      <workItem from="1675251608106" duration="1159000" />
     </task>
     <task id="LOCAL-00001" summary="lehoi-crawler">
       <created>1675183872699</created>
