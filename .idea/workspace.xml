@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="lehoi-crawler">
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawler/DiaDiemCrawler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jsondata/SuKien.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/CrawlerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/CrawlerTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jsondata/NhanVat.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jsondata/NhanVat.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/diadiem/DiaDiem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model_crawler/diadiem/DiaDiem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/sukien/SuKien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model_crawler/sukien/SuKien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/crawler/CrawlerTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/crawler/CrawlerTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/sukien/SuKien.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model_crawler/sukien/SuKien.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/thoiky/ThoiKy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model_crawler/thoiky/ThoiKy.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="UI_Minh" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,6 +65,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mikeljinx\git\CrawlerProject\src\main\resources\com\example\ui" />
       <recent name="D:\2. SoICT\2022_1\OOP\CrawlerProject\src\main\resources\com\example\ui" />
     </key>
   </component>
