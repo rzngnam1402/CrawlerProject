@@ -2,7 +2,10 @@ package com.example.ui;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
@@ -17,7 +20,7 @@ import java.util.stream.Collectors;
 public class HelloController implements Initializable {
 
     ArrayList<String> words = new ArrayList<>(
-            Arrays.asList("test", "dog","Human", "Days of our life", "The best day",
+            Arrays.asList("test", "dog", "Human", "Days of our life", "The best day",
                     "Friends", "Animal", "Human", "Humans", "Bear", "Life",
                     "This is some text", "Words", "222", "Bird", "Dog", "A few words",
                     "Subscribe!", "SoftwareEngineeringStudent", "You got this!!",
@@ -26,17 +29,38 @@ public class HelloController implements Initializable {
 
     @FXML
     private TextField searchBar;
-
     @FXML
     private ListView<String> listView;
-
+    private Button button;
+    private Label label;
     public HelloController() {
+
+    }
+
+    public void NhatVatButton(ActionEvent event) {
+//       HelloApplication.startNhatVat();
+    }
+
+    public void ThoiKiButton(ActionEvent event) {
+
+    }
+
+    public void SuKienButton(ActionEvent event) {
+
+    }
+
+    public void DiaDiemButton(ActionEvent event) {
+
+    }
+
+    public void LeHoiButton(ActionEvent event) {
+
     }
 
     @FXML
     void search(ActionEvent event) {
         listView.getItems().clear();
-        listView.getItems().addAll(searchList(searchBar.getText(),words));
+        listView.getItems().addAll(searchList(searchBar.getText(), words));
     }
 
     @Override
