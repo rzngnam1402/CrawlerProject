@@ -8,6 +8,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -16,7 +17,6 @@ import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 
 public class SearchTextFieldController implements Initializable {
-
     ArrayList<String> words = new ArrayList<>(
             Arrays.asList("test", "dog", "Human", "Days of our life", "The best day",
                     "Friends", "Animal", "Human", "Humans", "Bear", "Life",
@@ -25,12 +25,18 @@ public class SearchTextFieldController implements Initializable {
                     "Super Human", "Super", "Like")
     );
 
+    private SceneController SceneController = new SceneController();
+
     @FXML
     private TextField searchBar;
     @FXML
     private ListView<String> listView;
     private Button button;
     private Label label;
+
+    public void switchToMainMenuInNhanVat(ActionEvent event) throws IOException {
+        SceneController.switchToMainMenu(event);
+    }
 
     @FXML
     void search(ActionEvent event) {
