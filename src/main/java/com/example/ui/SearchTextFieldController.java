@@ -34,7 +34,7 @@ public class SearchTextFieldController implements Initializable {
     private Button button;
     private Label label;
 
-    public void switchToMainMenuInNhanVat(ActionEvent event) throws IOException {
+    public void switchToMainMenuInOther(ActionEvent event) throws IOException {
         SceneController.switchToMainMenu(event);
     }
 
