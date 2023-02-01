@@ -1,5 +1,6 @@
 package crawler;
 
+import model_crawler.nhanvat.NhanVat;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -8,7 +9,7 @@ import org.jsoup.select.Elements;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class NhanVatCrawler {
+public class NhanVatCrawler implements Crawl{
     protected static final ArrayList<String> detailedLinks = new ArrayList<>();
 
     public static void getLinksFromNguoiKeSu() {
@@ -74,5 +75,11 @@ public class NhanVatCrawler {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    @Override
+    public void crawlData() throws IOException {
+        getLinksFromNguoiKeSu();
+        NhanVat.getInfoFromNguoiKeSu(detailedLinks);
     }
 }
