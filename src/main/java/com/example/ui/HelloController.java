@@ -34,6 +34,7 @@ public class HelloController implements Initializable {
     private Button button;
     private Label label;
     public HelloController() {
+
     }
 
     public void NhatVatButton(ActionEvent event) {
