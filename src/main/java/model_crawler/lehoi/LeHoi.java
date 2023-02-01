@@ -29,6 +29,10 @@ public class LeHoi {
         this.ghiChu = "Không có";
     }
 
+    public String getTenLeHoi() {
+        return tenLeHoi;
+    }
+
     public static void getInfoLeHoiFromWikipedia(String url) throws IOException {
         // create Gson instance
         Gson gson = new Gson();
@@ -40,13 +44,14 @@ public class LeHoi {
                 .timeout(0)
                 .get();
         ArrayList<LeHoi> danhSachLehoi = new ArrayList<LeHoi>();
-        LeHoi lehoiData = new LeHoi();
+
         Elements lehoiTable = doc.select("table.prettytable.wikitable");
         Elements lehoiRecords = lehoiTable.select("tr");
         int i=1;
         for(Element lehoiRecord:lehoiRecords) {
             if(i == 1) i++;
             else {
+                LeHoi lehoiData = new LeHoi();
                 Elements lehoi = lehoiRecord.select("td");
                 if (lehoi.size() == 6) {
                     if (!lehoi.get(0).text().equals("")) {
@@ -70,13 +75,14 @@ public class LeHoi {
                     if (!lehoi.get(5).text().equals("")) {
                         lehoiData.ghiChu = lehoi.get(5).text();
                     }
-                    i++;
                     danhSachLehoi.add(lehoiData);
                 }
-                gson.toJson(danhSachLehoi, writer);
+
             }
         }
+        gson.toJson(danhSachLehoi, writer);
         // close writer
         writer.close();
     }
+
 }
