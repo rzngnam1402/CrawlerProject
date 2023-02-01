@@ -23,11 +23,11 @@ public class CrawlerTester {
 //        sukiencrawler.crawlData();
 //
 //Crawl nhan vat
-//        NhanVatCrawler nhanvatcrawler = new NhanVatCrawler();
-//        nhanvatcrawler.crawlData();
+        NhanVatCrawler nhanvatcrawler = new NhanVatCrawler();
+        nhanvatcrawler.crawlData();
 //
 //Crawl le hoi
-        LeHoiCrawler lehoicrawler = new LeHoiCrawler();
-        lehoicrawler.crawlData();
+//        LeHoiCrawler lehoicrawler = new LeHoiCrawler();
+//        lehoicrawler.crawlData();
     }
 }
