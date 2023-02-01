@@ -32,6 +32,7 @@ public class ThoiKy {
     }
 
     public static void getInfoFromWiki(String url) {
+        ArrayList<ThoiKy> danhsachthoiky = new ArrayList<>();
         try {
             Gson gson = new Gson();
 
@@ -185,7 +186,7 @@ public class ThoiKy {
                                         motThoiKy.kinhDo = kinhDo;
                                         motThoiKy.triVi = mocThoiGian;
 
-                                        gson.toJson(motThoiKy, writer);
+                                        danhsachthoiky.add(motThoiKy);
                                     }
                                 }
                             }
@@ -193,6 +194,7 @@ public class ThoiKy {
                     }
                 }
             }
+            gson.toJson(danhsachthoiky, writer);
             writer.close();
         } catch (IOException e) {
             e.printStackTrace();

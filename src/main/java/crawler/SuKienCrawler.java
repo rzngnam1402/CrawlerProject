@@ -1,5 +1,6 @@
 package crawler;
 
+import model_crawler.sukien.SuKien;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -8,7 +9,7 @@ import org.jsoup.select.Elements;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class SuKienCrawler {
+public class SuKienCrawler implements Crawl {
     protected static final ArrayList<String> detailedLinks = new ArrayList<>();
 
     public static void getLinksFromNguoiKeSu() {
@@ -73,5 +74,11 @@ public class SuKienCrawler {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    @Override
+    public void crawlData() throws IOException {
+        getLinksFromNguoiKeSu();
+        SuKien.getInfoFromNguoiKeSu(detailedLinks);
     }
 }

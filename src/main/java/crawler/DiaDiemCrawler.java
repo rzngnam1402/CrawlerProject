@@ -1,5 +1,6 @@
 package crawler;
 
+import model_crawler.diadiem.DiaDiem;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -8,7 +9,7 @@ import org.jsoup.select.Elements;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class DiaDiemCrawler {
+public class DiaDiemCrawler implements Crawl {
     protected static final ArrayList<String> detailedLinks = new ArrayList<>();
 
     public static void getLinksFromNguoiKeSu() {
@@ -66,5 +67,11 @@ public class DiaDiemCrawler {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    @Override
+    public void crawlData() throws IOException {
+        getLinksFromNguoiKeSu();
+        DiaDiem.getInfoFromNguoiKeSu(detailedLinks);
     }
 }

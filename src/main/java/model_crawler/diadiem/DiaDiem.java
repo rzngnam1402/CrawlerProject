@@ -43,6 +43,7 @@ public class DiaDiem {
 
         // create a writer
         Writer writer = Files.newBufferedWriter(Paths.get("src/main/java/jsondata/DiaDiem.json"));
+        ArrayList<DiaDiem> danhsachdiadiem = new ArrayList<>();
         Element result;
         Elements results;
         for (String url : urls) {
@@ -50,47 +51,47 @@ public class DiaDiem {
                     .ignoreContentType(true)
                     .timeout(0)
                     .get();
-            DiaDiem diaDiem = new DiaDiem();
-            diaDiem.addLink(url);
+            DiaDiem motDiaDiem = new DiaDiem();
+            motDiaDiem.addLink(url);
 
 
-            diaDiem.ten = Objects.requireNonNull(doc.selectFirst("div.page-header h2")).text();
+            motDiaDiem.ten = Objects.requireNonNull(doc.selectFirst("div.page-header h2")).text();
             Element info = doc.selectFirst(".infobox");
             if (info != null) {
                 for (Element row : info.select("tr")) {
                     result = doc.selectFirst(".jch-lazyload");
                     if (result != null) {
-                        diaDiem.image = "https://nguoikesu.com" + result.attr("data-src");
+                        motDiaDiem.image = "https://nguoikesu.com" + result.attr("data-src");
                     }
                     if (row.selectFirst("th:contains(Vị trí)") != null) {
-                        diaDiem.viTri = row.selectFirst("td").text();
+                        motDiaDiem.viTri = row.selectFirst("td").text();
                     }
                     if (row.selectFirst("th:contains(Quốc gia)") != null) {
-                        diaDiem.quocGia = row.selectFirst("td").text();
+                        motDiaDiem.quocGia = row.selectFirst("td").text();
                     }
                     if (row.selectFirst("th:contains(Địa chỉ)") != null) {
-                        diaDiem.diaChi = row.selectFirst("td").text();
+                        motDiaDiem.diaChi = row.selectFirst("td").text();
                     }
 //                    if (row.selectFirst("th:contains(Thông tin)") != null) {
-//                        diaDiem.thongTin = row.selectFirst("td").text();
+//                        motDiaDiem.thongTin = row.selectFirst("td").text();
 //                    }
                     if (row.selectFirst("th:contains(Khởi lập)") != null) {
-                        diaDiem.khoiLap = row.selectFirst("td").text();
+                        motDiaDiem.khoiLap = row.selectFirst("td").text();
                     }
                     if (row.selectFirst("th:contains(Tọa độ)") != null) {
-                        diaDiem.toaDo = row.selectFirst("td").text();
+                        motDiaDiem.toaDo = row.selectFirst("td").text();
                     }
                     if (row.selectFirst("th:contains(Người sáng lập)") != null) {
-                        diaDiem.nguoiSangLap = row.selectFirst("td").text();
+                        motDiaDiem.nguoiSangLap = row.selectFirst("td").text();
                     }
                     if (row.selectFirst("th:contains(Lễ hội)") != null) {
-                        diaDiem.leHoi = row.selectFirst("td").text();
+                        motDiaDiem.leHoi = row.selectFirst("td").text();
                     }
                 }
             }
-            // convert user object to JSON file
-            gson.toJson(diaDiem, writer);
+            danhsachdiadiem.add(motDiaDiem);
         }
+        gson.toJson(danhsachdiadiem, writer);
         // close writer
         writer.close();
     }

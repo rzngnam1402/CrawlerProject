@@ -95,6 +95,7 @@ public class NhanVat {
 
         // create a writer
         Writer writer = Files.newBufferedWriter(Paths.get("src/main/java/jsondata/NhanVat.json"));
+        ArrayList<NhanVat> danhsachnhanvat = new ArrayList<>();
         Element result;
         Elements results;
         for (String url : urls) {
@@ -171,9 +172,6 @@ public class NhanVat {
                     if (row.selectFirst("th:contains(Thân mẫu)") != null) {
                         nhanVat.thanMau = row.selectFirst("td").text();
                     }
-                    if (row.selectFirst("th:contains(Tôn giáo)") != null) {
-                        nhanVat.tonGiao = row.selectFirst("td").text();
-                    }
                     if ((row.selectFirst("th:contains(Phối ngẫu)") != null || row.selectFirst("th:contains(Phu quân)") != null) && row.selectFirst("td") != null) {
                         nhanVat.phoiNgau = row.selectFirst("td").text();
                     }
@@ -199,10 +197,9 @@ public class NhanVat {
                     }
                 }
             }
-            // convert user object to JSON file
-            gson.toJson(nhanVat, writer);
+            danhsachnhanvat.add(nhanVat);
         }
-        // close writer
+        gson.toJson(danhsachnhanvat, writer);
         writer.close();
     }
 
