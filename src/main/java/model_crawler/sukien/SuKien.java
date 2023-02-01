@@ -211,5 +211,7 @@ public class SuKien {
         }
 
         System.out.println(danhsachsukien);
+        gson.toJson(danhsachsukien, writer);
+        writer.close();
     }
 }

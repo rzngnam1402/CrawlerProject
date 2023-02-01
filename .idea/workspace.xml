@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="lehoi-crawler">
-      <change afterPath="$PROJECT_DIR$/src/main/java/crawler/DiaDiemCrawler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jsondata/SuKien.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/crawler/Crawler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/crawler/CrawlerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/CrawlerTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jsondata/NhanVat.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jsondata/NhanVat.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jsondata/DiaDiem.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jsondata/DiaDiem.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jsondata/SuKien.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jsondata/SuKien.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jsondata/ThoiKy.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jsondata/ThoiKy.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/diadiem/DiaDiem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model_crawler/diadiem/DiaDiem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/nhanvat/NhanVat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model_crawler/nhanvat/NhanVat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/sukien/SuKien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model_crawler/sukien/SuKien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/thoiky/ThoiKy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model_crawler/thoiky/ThoiKy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/crawler/CrawlerTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/crawler/CrawlerTester.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/sukien/SuKien.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model_crawler/sukien/SuKien.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/thoiky/ThoiKy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model_crawler/thoiky/ThoiKy.class" afterDir="false" />
@@ -26,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -81,7 +84,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6c463512-e7c4-4c77-b724-9b5fc43ea7d6" name="Changes" comment="" />
+      <changelist id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="lehoi-crawler" />
       <created>1675006948998</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -118,16 +121,5 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="lehoi-crawler" />
     <option name="LAST_COMMIT_MESSAGE" value="lehoi-crawler" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/model_crawler/nhanvat/NhanVat.java</url>
-          <line>178</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
