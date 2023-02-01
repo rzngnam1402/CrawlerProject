@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c463512-e7c4-4c77-b724-9b5fc43ea7d6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jsondata/LeHoi.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jsondata/LeHoi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ui/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ui/hello-view.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="6c463512-e7c4-4c77-b724-9b5fc43ea7d6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,21 +60,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\2. SoICT\2022_1\OOP\CrawlerProject\src\main\resources\com\example\ui" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="HistoryProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="HistoryProject" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
