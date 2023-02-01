@@ -38,7 +38,7 @@ public class SuKien {
 
         Gson gson = new Gson();
 
-        Writer writer = Files.newBufferedWriter(Paths.get("src/main/java/jsondata/NhanVat.json"));
+        Writer writer = Files.newBufferedWriter(Paths.get("src/main/java/jsondata/SuKien.json"));
 
         ArrayList<SuKien> danhsachsukien = new ArrayList<>();
         for (String url : urls) {
@@ -209,5 +209,7 @@ public class SuKien {
                 e.printStackTrace();
             }
         }
+
+        System.out.println(danhsachsukien);
     }
 }
