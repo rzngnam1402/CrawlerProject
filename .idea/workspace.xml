@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="lehoi-crawler">
+      <change afterPath="$PROJECT_DIR$/src/main/java/crawler/SuKienCrawler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HistoryProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/CrawlerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/CrawlerTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jsondata/LeHoi.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jsondata/LeHoi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/lehoi/LeHoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model_crawler/lehoi/LeHoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/thoiky/ThoiKy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model_crawler/thoiky/ThoiKy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/crawler/CrawlerTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/crawler/CrawlerTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/lehoi/LeHoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model_crawler/lehoi/LeHoi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/sukien/SuKien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model_crawler/sukien/SuKien.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
