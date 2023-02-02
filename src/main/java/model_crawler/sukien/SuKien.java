@@ -34,6 +34,10 @@ public class SuKien {
         nhanVatLienQuan = new ArrayList<>();
     }
 
+    public String getTenSuKien() {
+        return tenSuKien;
+    }
+
     public static void getInfoFromNguoiKeSu(ArrayList<String> urls) throws IOException {
 
         Gson gson = new Gson();
