@@ -31,6 +31,14 @@ public class ThoiKy {
         this.cacVua = new ArrayList<>();
     }
 
+    public String getTenTrieuDai() {
+        return tenTrieuDai;
+    }
+
+    public String getThoiKy() {
+        return thoiKy;
+    }
+
     public static void getInfoFromWiki(String url) {
         ArrayList<ThoiKy> danhsachthoiky = new ArrayList<>();
         try {

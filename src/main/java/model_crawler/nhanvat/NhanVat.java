@@ -57,6 +57,10 @@ public class NhanVat {
         this.thoiKy = "Không rõ";
     }
 
+    public String getTen() {
+        return ten;
+    }
+
     public static void getOneLink(String url) throws IOException {
         System.out.println(url);
         final Document doc = Jsoup.connect(url)

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="update workspace.xmlq">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ui/mainMenu-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ui/mainMenu-view.fxml" afterDir="false" />
+    <list default="true" id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="Read-Data-From-Json">
+      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/lehoi/ReadDataTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675274601057</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Read-Data-From-Json">
+      <created>1675306515842</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675306515842</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Read-Data-From-Json">
+      <created>1675306551982</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675306551982</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="lehoi-crawler" />
-    <option name="LAST_COMMIT_MESSAGE" value="lehoi-crawler" />
+    <MESSAGE value="Read-Data-From-Json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Read-Data-From-Json" />
   </component>
 </project>

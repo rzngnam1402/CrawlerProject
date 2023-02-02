@@ -37,6 +37,14 @@ public class DiaDiem {
         this.leHoi = "Khong ro";
     }
 
+    public String getDiaChi() {
+        return diaChi;
+    }
+
+    public String getTen() {
+        return ten;
+    }
+
     public static void getInfoFromNguoiKeSu(ArrayList<String> urls) throws IOException {
         // create Gson instance
         Gson gson = new Gson();
