@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="lehoi-crawler">
+    <list default="true" id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="update workspace.xmlq">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/CrawlerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/CrawlerTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/nhanvat/NhanVat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model_crawler/nhanvat/NhanVat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/crawler/CrawlerTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/crawler/CrawlerTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/nhanvat/NhanVat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model_crawler/nhanvat/NhanVat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ui/mainMenu-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ui/mainMenu-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +81,7 @@
       <workItem from="1675131815619" duration="225000" />
       <workItem from="1675132054479" duration="442000" />
       <workItem from="1675251608106" duration="1159000" />
+      <workItem from="1675277042117" duration="156000" />
     </task>
     <task id="LOCAL-00001" summary="lehoi-crawler">
       <created>1675183872699</created>
@@ -92,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675183872699</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update workspace.xml">
+      <created>1675274601057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675274601057</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

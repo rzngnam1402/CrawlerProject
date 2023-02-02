@@ -30,4 +30,36 @@ public class SceneController {
         stage.setScene(scene);
         stage.show();
     }
+
+    public void switchToDiaDiem(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("diadiem-view.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public void switchToLeHoi(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("lehoi-view.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public void switchToSuKien(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("sukien-view.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public void switchToThoiKi(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("thoiki-view.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
 }
