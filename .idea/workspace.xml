@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="Read-Data-From-Json">
-      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/lehoi/ReadDataTest.java" beforeDir="false" />
+    <list default="true" id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="update workspace.xmlq">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/DiaDiemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/DiaDiemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/LeHoiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/LeHoiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/NhanVatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/NhanVatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/SuKienController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/SuKienController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/ThoiKiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/ThoiKiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/diadiem/DiaDiem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model_crawler/diadiem/DiaDiem.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +88,7 @@
       <workItem from="1675132054479" duration="442000" />
       <workItem from="1675251608106" duration="1159000" />
       <workItem from="1675277042117" duration="156000" />
+      <workItem from="1675397767963" duration="2997000" />
     </task>
     <task id="LOCAL-00001" summary="lehoi-crawler">
       <created>1675183872699</created>
