@@ -3,8 +3,10 @@ package com.example.ui;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
+import javafx.util.Callback;
 import model_crawler.diadiem.DiaDiem;
 
 import java.io.IOException;
@@ -47,6 +49,12 @@ public class DiaDiemController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        listView_diaDiem.setCellFactory(new Callback<ListView<String>, ListCell<String>>() {
+            @Override
+            public ListCell<String> call(ListView<String> param) {
+                return new XCell();
+            }
+        });
         listView_diaDiem.getItems().addAll(words);
     }
 

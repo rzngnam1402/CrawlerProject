@@ -1,10 +1,16 @@
 package com.example.ui;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.Pane;
+import javafx.scene.layout.Priority;
+import javafx.util.Callback;
 import model_crawler.nhanvat.NhanVat;
 
 import java.io.IOException;
@@ -17,12 +23,12 @@ import java.util.stream.Collectors;
 
 public class NhanVatController implements Initializable {
     ArrayList<String> words = bla();
+
     private ArrayList<String > bla() {
         ArrayList<NhanVat> listNhanVat = ReadDataFromJson.readNhanVatData();
         ArrayList<String> word = new ArrayList<>();
         for (NhanVat p : listNhanVat){
             word.add(p.getTen());
-
         }
         return word;
     }
@@ -46,6 +52,12 @@ public class NhanVatController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        listView_nhanVat.setCellFactory(new Callback<ListView<String>, ListCell<String>>() {
+            @Override
+            public ListCell<String> call(ListView<String> param) {
+                return new XCell();
+            }
+        });
         listView_nhanVat.getItems().addAll(words);
     }
 
