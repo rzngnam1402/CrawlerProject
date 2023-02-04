@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="view-info-nhanvat-newWindow">
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/CrawlerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/CrawlerTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/thoiky/ThoiKy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model_crawler/thoiky/ThoiKy.java" afterDir="false" />
+    <list default="true" id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="fix-thoiky-crawler">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/NewWindowNhanVatInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_NhanVat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_NhanVat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675536508523</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix-thoiky-crawler">
+      <created>1675536829819</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675536829819</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix-thoiky-crawler">
+      <created>1675536856050</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675536856050</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +156,7 @@
     <MESSAGE value="lehoi-crawler" />
     <MESSAGE value="Read-Data-From-Json" />
     <MESSAGE value="view-info-nhanvat-newWindow" />
-    <option name="LAST_COMMIT_MESSAGE" value="view-info-nhanvat-newWindow" />
+    <MESSAGE value="fix-thoiky-crawler" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix-thoiky-crawler" />
   </component>
 </project>
