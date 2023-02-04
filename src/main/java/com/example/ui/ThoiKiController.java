@@ -23,7 +23,7 @@ public class ThoiKiController implements Initializable {
         ArrayList<ThoiKy> listThoiKy = ReadDataFromJson.readThoiKyData();
         ArrayList<String> word = new ArrayList<>();
         for (ThoiKy p : listThoiKy){
-            word.add(p.getThoiKy());
+            word.add(p.getTenTrieuDai());
         }
         return word;
     }

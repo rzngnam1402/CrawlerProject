@@ -78,31 +78,4 @@ public class ReadDataFromJson {
         return listDiaDiem;
     }
 
-    public static void main(String[] args) {
-        System.out.println("Test DiaDiem");
-        ArrayList<DiaDiem> listDiaDiem = ReadDataFromJson.readDiaDiemData();
-        for (DiaDiem p : listDiaDiem){
-            System.out.println(p.getTen());
-        }
-        System.out.println("Test LeHoi");
-        ArrayList<LeHoi> listLeHoi = ReadDataFromJson.readLeHoiData();
-        for (LeHoi p : listLeHoi){
-            System.out.println(p.getTenLeHoi());
-        }
-        System.out.println("Test NhanVat");
-        ArrayList<NhanVat> listNhanVat = ReadDataFromJson.readNhanVatData();
-        for (NhanVat p : listNhanVat){
-            System.out.println(p.getTen());
-        }
-        System.out.println("Test SuKien");
-        ArrayList<SuKien> listSuKien = ReadDataFromJson.readSuKienData();
-        for (SuKien p : listSuKien){
-            System.out.println(p.getTenSuKien());
-        }
-        System.out.println("Test ThoiKy");
-        ArrayList<ThoiKy> listThoiKy = ReadDataFromJson.readThoiKyData();
-        for (ThoiKy p : listThoiKy){
-            System.out.println(p.getTenTrieuDai() + " - " + p.getThoiKy());
-        }
-    }
 }

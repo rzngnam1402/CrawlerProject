@@ -55,7 +55,7 @@ public class NhanVatController implements Initializable {
         listView_nhanVat.setCellFactory(new Callback<ListView<String>, ListCell<String>>() {
             @Override
             public ListCell<String> call(ListView<String> param) {
-                return new XCell();
+                return new XCell_NhanVat();
             }
         });
         listView_nhanVat.getItems().addAll(words);

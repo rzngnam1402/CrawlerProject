@@ -31,12 +31,36 @@ public class ThoiKy {
         this.cacVua = new ArrayList<>();
     }
 
+    public void setTenTrieuDai(String tenTrieuDai) {
+        this.tenTrieuDai = tenTrieuDai;
+    }
+
+    public void setThoiKy(String thoiKy) {
+        this.thoiKy = thoiKy;
+    }
+
     public String getTenTrieuDai() {
         return tenTrieuDai;
     }
 
     public String getThoiKy() {
         return thoiKy;
+    }
+
+    public String getQueHuong() {
+        return queHuong;
+    }
+
+    public String getKinhDo() {
+        return kinhDo;
+    }
+
+    public String getTriVi() {
+        return triVi;
+    }
+
+    public ArrayList<String> getCacVua() {
+        return cacVua;
     }
 
     public static void getInfoFromWiki(String url) {

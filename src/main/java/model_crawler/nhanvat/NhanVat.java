@@ -57,8 +57,92 @@ public class NhanVat {
         this.thoiKy = "Không rõ";
     }
 
+    public void setTen(String ten) {
+        this.ten = ten;
+    }
+
     public String getTen() {
         return ten;
+    }
+
+    public String getTenKhac() {
+        return tenKhac;
+    }
+
+    public String getThoiKy() {
+        return thoiKy;
+    }
+
+    public String getSinh() {
+        return sinh;
+    }
+
+    public String getThanPhu() {
+        return thanPhu;
+    }
+
+    public String getThanMau() {
+        return thanMau;
+    }
+
+    public String getMat() {
+        return mat;
+    }
+
+    public String getAnTang() {
+        return anTang;
+    }
+
+    public String getChucVu() {
+        return chucVu;
+    }
+
+    public String getPhoiNgau() {
+        return phoiNgau;
+    }
+
+    public String getTonGiao() {
+        return tonGiao;
+    }
+
+    public String getDiaChi() {
+        return diaChi;
+    }
+
+    public String getNguyenNhanMat() {
+        return nguyenNhanMat;
+    }
+
+    public String getQueQuan() {
+        return queQuan;
+    }
+
+    public String getDangPhai() {
+        return dangPhai;
+    }
+
+    public String getDanToc() {
+        return danToc;
+    }
+
+    public String getHocVan() {
+        return hocVan;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public ArrayList<String> getVo() {
+        return vo;
+    }
+
+    public ArrayList<String> getHauDue() {
+        return hauDue;
+    }
+
+    public ArrayList<String> getLinks() {
+        return links;
     }
 
     public static void getOneLink(String url) throws IOException {

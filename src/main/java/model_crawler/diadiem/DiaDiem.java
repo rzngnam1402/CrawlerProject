@@ -37,12 +37,52 @@ public class DiaDiem {
         this.leHoi = "Khong ro";
     }
 
-    public String getDiaChi() {
-        return diaChi;
+    public void setTen(String ten) {
+        this.ten = ten;
     }
 
     public String getTen() {
         return ten;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public String getViTri() {
+        return viTri;
+    }
+
+    public String getQuocGia() {
+        return quocGia;
+    }
+
+    public String getDiaChi() {
+        return diaChi;
+    }
+
+    public String getThongTin() {
+        return thongTin;
+    }
+
+    public String getKhoiLap() {
+        return khoiLap;
+    }
+
+    public String getToaDo() {
+        return toaDo;
+    }
+
+    public String getNguoiSangLap() {
+        return nguoiSangLap;
+    }
+
+    public String getLeHoi() {
+        return leHoi;
+    }
+
+    public ArrayList<String> getLinks() {
+        return links;
     }
 
     public static void getInfoFromNguoiKeSu(ArrayList<String> urls) throws IOException {
