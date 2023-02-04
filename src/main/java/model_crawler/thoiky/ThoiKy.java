@@ -218,10 +218,11 @@ public class ThoiKy {
                                         motThoiKy.kinhDo = kinhDo;
                                         motThoiKy.triVi = mocThoiGian;
 
-                                        danhsachthoiky.add(motThoiKy);
+
                                     }
                                 }
                             }
+                            danhsachthoiky.add(motThoiKy);
                         }
                     }
                 }
