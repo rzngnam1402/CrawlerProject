@@ -15,16 +15,16 @@ public class CrawlerTester {
 //        diadiemcrawler.crawlData();
 //
 // Crawl thoi ky
-//        ThoiKyCrawler thoikycrawler = new ThoiKyCrawler();
-//        thoikycrawler.crawlData();
+        ThoiKyCrawler thoikycrawler = new ThoiKyCrawler();
+        thoikycrawler.crawlData();
 //
 //Crawl su kien
 //        SuKienCrawler sukiencrawler = new SuKienCrawler();
 //        sukiencrawler.crawlData();
 //
 //Crawl nhan vat
-        NhanVatCrawler nhanvatcrawler = new NhanVatCrawler();
-        nhanvatcrawler.crawlData();
+//        NhanVatCrawler nhanvatcrawler = new NhanVatCrawler();
+//        nhanvatcrawler.crawlData();
 //
 //Crawl le hoi
 //        LeHoiCrawler lehoicrawler = new LeHoiCrawler();
