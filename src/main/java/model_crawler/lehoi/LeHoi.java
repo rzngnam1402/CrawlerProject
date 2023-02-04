@@ -29,8 +29,32 @@ public class LeHoi {
         this.ghiChu = "Không có";
     }
 
+    public void setTenLeHoi(String tenLeHoi) {
+        this.tenLeHoi = tenLeHoi;
+    }
+
+    public String getNgayBatDau() {
+        return ngayBatDau;
+    }
+
+    public String getViTri() {
+        return viTri;
+    }
+
     public String getTenLeHoi() {
         return tenLeHoi;
+    }
+
+    public String getLanDauToChuc() {
+        return lanDauToChuc;
+    }
+
+    public ArrayList<String> getNhanVatLienQuan() {
+        return nhanVatLienQuan;
+    }
+
+    public String getGhiChu() {
+        return ghiChu;
     }
 
     public static void getInfoLeHoiFromWikipedia(String url) throws IOException {

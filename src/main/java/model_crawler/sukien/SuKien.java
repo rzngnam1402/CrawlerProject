@@ -34,8 +34,36 @@ public class SuKien {
         nhanVatLienQuan = new ArrayList<>();
     }
 
+    public void setTenSuKien(String tenSuKien) {
+        this.tenSuKien = tenSuKien;
+    }
+
     public String getTenSuKien() {
         return tenSuKien;
+    }
+
+    public String getThoiGian() {
+        return thoiGian;
+    }
+
+    public String getDiaDiem() {
+        return diaDiem;
+    }
+
+    public String getNguyenNhan() {
+        return nguyenNhan;
+    }
+
+    public String getMoTa() {
+        return moTa;
+    }
+
+    public String getKetQua() {
+        return ketQua;
+    }
+
+    public ArrayList<String> getNhanVatLienQuan() {
+        return nhanVatLienQuan;
     }
 
     public static void getInfoFromNguoiKeSu(ArrayList<String> urls) throws IOException {
