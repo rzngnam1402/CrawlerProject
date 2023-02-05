@@ -31,7 +31,7 @@ public class XCell_NhanVat extends XCell {
                 ArrayList<NhanVat> listNhanVat = ReadDataFromJson.readNhanVatData();
                 NhanVat nhanVatInfo = new NhanVat();
                 for (NhanVat nhanVat : listNhanVat) {
-                    if (nhanVat.getTen().equals(lastItem)) {
+                    if (nhanVat.getTen().equals(lastItem) || nhanVat.getTenKhac().equals(lastItem)) {
                         nhanVatInfo = nhanVat;
                         break;
                     } else {
@@ -94,6 +94,7 @@ public class XCell_NhanVat extends XCell {
                 gridPane.add(new Text("Thời kỳ: "), 0, 1);
 
                 Button thoiKyButton = new Button(nhanVatInfo.getThoiKy());
+                thoiKyButton.setOnAction(NewWindowThoiKyInfo.thoiKyInfoWindow(nhanVatInfo.getThoiKy()));
                 gridPane.add(thoiKyButton, 1, 1);
 
                 gridPane.add(new Text("Ngày tháng năm sinh: "), 0, 2);
@@ -155,7 +156,9 @@ public class XCell_NhanVat extends XCell {
                     int i = 0;
                     GridPane gridPaneHauDue = new GridPane();
                     for (String haudue : hauDue) {
-                        gridPaneHauDue.add(new Text(haudue),0,i);
+                        Button hauDueButton = new Button(haudue);
+                        hauDueButton.setOnAction(NewWindowNhanVatInfo.nhanVatInfoWindow(haudue));
+                        gridPaneHauDue.add(hauDueButton,0,i);
                         i++;
                     }
                     gridPane.add(gridPaneHauDue, 1, 18);

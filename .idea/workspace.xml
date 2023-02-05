@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="update-demo-new-window-nhanvat-info">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_LeHoi.java" afterDir="false" />
+    <list default="true" id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="new-window-lehoi-info">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/NewWindowThoiKyInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/LeHoiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/LeHoiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/NewWindowLehoiInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/NewWindowLehoiInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/NewWindowNhanVatInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/NewWindowNhanVatInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/ThoiKiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/ThoiKiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_LeHoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_LeHoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_NhanVat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_NhanVat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_ThoiKy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_ThoiKy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jsondata/NhanVat.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jsondata/NhanVat.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675537822713</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="new-window-lehoi-info">
+      <created>1675567888759</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675567888759</updated>
+    </task>
+    <task id="LOCAL-00010" summary="new-window-lehoi-info">
+      <created>1675567940918</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675567940918</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +185,7 @@
     <MESSAGE value="view-info-nhanvat-newWindow" />
     <MESSAGE value="fix-thoiky-crawler" />
     <MESSAGE value="update-demo-new-window-nhanvat-info" />
-    <option name="LAST_COMMIT_MESSAGE" value="update-demo-new-window-nhanvat-info" />
+    <MESSAGE value="new-window-lehoi-info" />
+    <option name="LAST_COMMIT_MESSAGE" value="new-window-lehoi-info" />
   </component>
 </project>
