@@ -19,8 +19,8 @@ import java.util.stream.Collectors;
 
 public class DiaDiemController implements Initializable {
 
-    ArrayList<String> words = bla();
-    private ArrayList<String > bla() {
+    ArrayList<String> words = getJsonInfo();
+    private ArrayList<String > getJsonInfo() {
         ArrayList<DiaDiem> listDiaDiem = ReadDataFromJson.readDiaDiemData();
         ArrayList<String> word = new ArrayList<>();
         for (DiaDiem p : listDiaDiem){
