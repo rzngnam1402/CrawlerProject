@@ -75,6 +75,8 @@ public class XCell_NhanVat extends XCell {
                     imageView.setPreserveRatio(true);
                     imageView.setSmooth(true);
                     imageView.setCache(true);
+                    imageView.setFitHeight(400);
+                    imageView.setFitWidth(400);
                     tenImage.add(imageView, 0, 0);
                 }
                 catch (Exception e){
