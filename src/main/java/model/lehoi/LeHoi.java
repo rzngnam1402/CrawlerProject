@@ -1,4 +1,4 @@
-package model_crawler.lehoi;
+package model.lehoi;
 
 import com.google.gson.Gson;
 import org.jsoup.Jsoup;

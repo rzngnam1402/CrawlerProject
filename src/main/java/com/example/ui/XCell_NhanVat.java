@@ -15,7 +15,7 @@ import javafx.scene.text.FontPosture;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-import model_crawler.nhanvat.NhanVat;
+import model.nhanvat.NhanVat;
 
 import java.util.ArrayList;
 

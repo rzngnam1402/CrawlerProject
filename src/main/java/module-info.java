@@ -9,11 +9,11 @@ module com.example.ui {
     requires javafx.base;
 
     opens com.example.ui to javafx.fxml;
-    opens model_crawler.nhanvat to com.google.gson;
-    opens model_crawler.lehoi to com.google.gson;
-    opens model_crawler.thoiky to com.google.gson;
-    opens model_crawler.diadiem to com.google.gson;
-    opens model_crawler.sukien to com.google.gson;
+    opens model.nhanvat to com.google.gson;
+    opens model.lehoi to com.google.gson;
+    opens model.thoiky to com.google.gson;
+    opens model.diadiem to com.google.gson;
+    opens model.sukien to com.google.gson;
 
     exports com.example.ui;
 }

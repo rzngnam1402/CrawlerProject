@@ -4,9 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="view-info-nhanvat-newWindow">
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/CrawlerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/CrawlerTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/thoiky/ThoiKy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model_crawler/thoiky/ThoiKy.java" afterDir="false" />
+    <list default="true" id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="lehoi-crawler">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/DiaDiemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/DiaDiemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/LeHoiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/LeHoiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/NhanVatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/NhanVatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/ReadDataFromJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/ReadDataFromJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/SuKienController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/SuKienController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/ThoiKiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/ThoiKiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_NhanVat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_NhanVat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/CrawlerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/CrawlerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/DiaDiemCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/DiaDiemCrawler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/LeHoiCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/LeHoiCrawler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/NhanVatCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/NhanVatCrawler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/SuKienCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/SuKienCrawler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/ThoiKyCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/ThoiKyCrawler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/diadiem/DiaDiem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/diadiem/DiaDiem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/lehoi/LeHoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/lehoi/LeHoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/nhanvat/NhanVat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/nhanvat/NhanVat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/sukien/SuKien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/sukien/SuKien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/thoiky/ThoiKy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/thoiky/ThoiKy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/controller/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/crawler/CrawlerTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/crawler/NhanVatCrawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/crawler/NhanVatCrawler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/diadiem/DiaDiem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/lehoi/LeHoi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/nhanvat/NhanVat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/sukien/SuKien.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/thoiky/ThoiKy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/Controller.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

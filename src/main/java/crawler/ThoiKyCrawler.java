@@ -1,6 +1,6 @@
 package crawler;
 
-import model_crawler.thoiky.ThoiKy;
+import model.thoiky.ThoiKy;
 
 public class ThoiKyCrawler implements Crawl {
 

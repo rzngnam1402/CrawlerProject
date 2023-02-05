@@ -2,11 +2,11 @@ package com.example.ui;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import model_crawler.diadiem.DiaDiem;
-import model_crawler.lehoi.LeHoi;
-import model_crawler.nhanvat.NhanVat;
-import model_crawler.sukien.SuKien;
-import model_crawler.thoiky.ThoiKy;
+import model.diadiem.DiaDiem;
+import model.lehoi.LeHoi;
+import model.nhanvat.NhanVat;
+import model.sukien.SuKien;
+import model.thoiky.ThoiKy;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
