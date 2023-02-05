@@ -140,12 +140,19 @@ public class XCell_NhanVat extends XCell {
                 gridPane.add(new Text("Vợ/Chồng: "), 0, 17);
                 if (vo != null) {
                     int i = 0;
+                    int j = 0;
                     GridPane gridPaneVo = new GridPane();
                     for (String wife : vo) {
                         Button voButton = new Button(wife);
                         voButton.setOnAction(NewWindowNhanVatInfo.nhanVatInfoWindow(wife));
-                        gridPaneVo.add(voButton,0,i);
-                        i++;
+                        gridPaneVo.add(voButton,i,j);
+                        if(i == 3){
+                            j++;
+                            i = 0;
+                        }
+                        else {
+                            i++;
+                        }
                     }
                     gridPane.add(gridPaneVo, 1, 17);
                 } else {
@@ -154,12 +161,19 @@ public class XCell_NhanVat extends XCell {
                 gridPane.add(new Text("Hậu duệ: "), 0, 18);
                 if (hauDue != null) {
                     int i = 0;
+                    int j =0;
                     GridPane gridPaneHauDue = new GridPane();
                     for (String haudue : hauDue) {
                         Button hauDueButton = new Button(haudue);
                         hauDueButton.setOnAction(NewWindowNhanVatInfo.nhanVatInfoWindow(haudue));
-                        gridPaneHauDue.add(hauDueButton,0,i);
-                        i++;
+                        gridPaneHauDue.add(hauDueButton,i,j);
+                        if(i == 3){
+                            j++;
+                            i = 0;
+                        }
+                        else {
+                            i++;
+                        }
                     }
                     gridPane.add(gridPaneHauDue, 1, 18);
                 } else {
