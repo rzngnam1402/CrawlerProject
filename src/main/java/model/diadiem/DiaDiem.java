@@ -111,7 +111,8 @@ public class DiaDiem {
                     if (result != null) {
                         motDiaDiem.image = "https://nguoikesu.com" + result.attr("data-src");
                     }
-                    if (row.selectFirst("th:contains(Vị trí)") != null) {
+                    if (row.selectFirst("th:contains(Vị trí)") != null  || row.selectFirst("th:contains(Địa điểm)") != null
+                            ||row.selectFirst("th:contains(Khu vực)") != null ) {
                         motDiaDiem.viTri = row.selectFirst("td").text();
                     }
                     if (row.selectFirst("th:contains(Quốc gia)") != null) {
@@ -123,7 +124,8 @@ public class DiaDiem {
 //                    if (row.selectFirst("th:contains(Thông tin)") != null) {
 //                        motDiaDiem.thongTin = row.selectFirst("td").text();
 //                    }
-                    if (row.selectFirst("th:contains(Khởi lập)") != null) {
+                    if (row.selectFirst("th:contains(Khởi lập)") != null  || row.selectFirst("th:contains(Thành lập)") != null
+                            ||row.selectFirst("th:contains(Khởi công)") != null ) {
                         motDiaDiem.khoiLap = row.selectFirst("td").text();
                     }
                     if (row.selectFirst("th:contains(Tọa độ)") != null) {
