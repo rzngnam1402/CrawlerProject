@@ -4,37 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="lehoi-crawler">
+
+    <list default="true" id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="new-window-lehoi-info">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/NewWindowThoiKyInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/DiaDiemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/DiaDiemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/LeHoiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/LeHoiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/NhanVatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/NhanVatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/ReadDataFromJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/ReadDataFromJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/SuKienController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/SuKienController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/NewWindowLehoiInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/NewWindowLehoiInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/NewWindowNhanVatInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/NewWindowNhanVatInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/ThoiKiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/ThoiKiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_LeHoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_LeHoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_NhanVat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_NhanVat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/CrawlerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/CrawlerManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/DiaDiemCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/DiaDiemCrawler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/LeHoiCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/LeHoiCrawler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/NhanVatCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/NhanVatCrawler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/SuKienCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/SuKienCrawler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/ThoiKyCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/ThoiKyCrawler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/diadiem/DiaDiem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/diadiem/DiaDiem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/lehoi/LeHoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/lehoi/LeHoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/nhanvat/NhanVat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/nhanvat/NhanVat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/sukien/SuKien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/sukien/SuKien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model_crawler/thoiky/ThoiKy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/thoiky/ThoiKy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ui/controller/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/crawler/CrawlerTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/crawler/NhanVatCrawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/crawler/NhanVatCrawler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/diadiem/DiaDiem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/lehoi/LeHoi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/nhanvat/NhanVat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/sukien/SuKien.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model_crawler/thoiky/ThoiKy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_ThoiKy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_ThoiKy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jsondata/NhanVat.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jsondata/NhanVat.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +127,42 @@
       <option name="project" value="LOCAL" />
       <updated>1675536508523</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix-thoiky-crawler">
+      <created>1675536829819</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675536829819</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix-thoiky-crawler">
+      <created>1675536856050</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675536856050</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update-demo-new-window-nhanvat-info">
+      <created>1675537822713</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675537822713</updated>
+    </task>
+    <task id="LOCAL-00009" summary="new-window-lehoi-info">
+      <created>1675567888759</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675567888759</updated>
+    </task>
+    <task id="LOCAL-00010" summary="new-window-lehoi-info">
+      <created>1675567940918</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675567940918</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +184,9 @@
     <MESSAGE value="lehoi-crawler" />
     <MESSAGE value="Read-Data-From-Json" />
     <MESSAGE value="view-info-nhanvat-newWindow" />
-    <option name="LAST_COMMIT_MESSAGE" value="view-info-nhanvat-newWindow" />
+    <MESSAGE value="fix-thoiky-crawler" />
+    <MESSAGE value="update-demo-new-window-nhanvat-info" />
+    <MESSAGE value="new-window-lehoi-info" />
+    <option name="LAST_COMMIT_MESSAGE" value="new-window-lehoi-info" />
   </component>
 </project>

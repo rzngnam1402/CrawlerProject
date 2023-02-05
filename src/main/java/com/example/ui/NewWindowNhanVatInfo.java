@@ -15,27 +15,26 @@ import javafx.scene.text.FontPosture;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-import model.nhanvat.NhanVat;
+import model_crawler.nhanvat.NhanVat;
 
 import java.util.ArrayList;
 
 import static javafx.scene.text.TextAlignment.CENTER;
 
-public class XCell_NhanVat extends XCell {
-    public XCell_NhanVat() {
-        super();
-        button.setOnAction(new EventHandler<ActionEvent>() {
+public class NewWindowNhanVatInfo {
+    public static EventHandler<ActionEvent> nhanVatInfoWindow(String ten) {
+        EventHandler<ActionEvent> event = new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
                 // Check xem nhân vật có trong file json hay không
                 ArrayList<NhanVat> listNhanVat = ReadDataFromJson.readNhanVatData();
                 NhanVat nhanVatInfo = new NhanVat();
                 for (NhanVat nhanVat : listNhanVat) {
-                    if (nhanVat.getTen().equals(lastItem) || nhanVat.getTenKhac().equals(lastItem)) {
+                    if (nhanVat.getTen().equals(ten) || nhanVat.getTenKhac().equals(ten)) {
                         nhanVatInfo = nhanVat;
                         break;
                     } else {
-                        nhanVatInfo.setTen(lastItem);
+                        nhanVatInfo.setTen(ten);
                     }
                 }
 
@@ -175,6 +174,7 @@ public class XCell_NhanVat extends XCell {
                 newWindow.setScene(nhanVatInfoScene);
                 newWindow.show();
             }
-        });
+        };
+        return event;
     }
 }
