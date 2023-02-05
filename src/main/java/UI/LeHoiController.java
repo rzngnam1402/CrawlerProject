@@ -18,8 +18,8 @@ import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 
 public class LeHoiController implements Initializable {
-    ArrayList<String> words = bla();
-    private ArrayList<String > bla() {
+    ArrayList<String> words = getJsonInfo();
+    private ArrayList<String > getJsonInfo() {
         ArrayList<LeHoi> listLeHoi = ReadDataFromJson.readLeHoiData();
         ArrayList<String> word = new ArrayList<>();
         for (LeHoi p : listLeHoi){

@@ -18,8 +18,8 @@ import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 
 public class ThoiKiController implements Initializable {
-    ArrayList<String> words = bla();
-    private ArrayList<String > bla() {
+    ArrayList<String> words = getJsonInfo();
+    private ArrayList<String > getJsonInfo() {
         ArrayList<ThoiKy> listThoiKy = ReadDataFromJson.readThoiKyData();
         ArrayList<String> word = new ArrayList<>();
         for (ThoiKy p : listThoiKy){

@@ -16,9 +16,9 @@ import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 
 public class NhanVatController implements Initializable {
-    ArrayList<String> words = bla();
+    ArrayList<String> words = getJsonInfo();
 
-    private ArrayList<String > bla() {
+    private ArrayList<String > getJsonInfo() {
         ArrayList<NhanVat> listNhanVat = ReadDataFromJson.readNhanVatData();
         ArrayList<String> word = new ArrayList<>();
         for (NhanVat p : listNhanVat){
