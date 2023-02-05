@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="fix-thoiky-crawler">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/NewWindowNhanVatInfo.java" afterDir="false" />
+    <list default="true" id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="update-demo-new-window-nhanvat-info">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_LeHoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_NhanVat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_NhanVat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/LeHoiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/LeHoiController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675536856050</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update-demo-new-window-nhanvat-info">
+      <created>1675537822713</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675537822713</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +164,7 @@
     <MESSAGE value="Read-Data-From-Json" />
     <MESSAGE value="view-info-nhanvat-newWindow" />
     <MESSAGE value="fix-thoiky-crawler" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix-thoiky-crawler" />
+    <MESSAGE value="update-demo-new-window-nhanvat-info" />
+    <option name="LAST_COMMIT_MESSAGE" value="update-demo-new-window-nhanvat-info" />
   </component>
 </project>
