@@ -9,8 +9,8 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-import model_crawler.lehoi.LeHoi;
-import model_crawler.thoiky.ThoiKy;
+import model.lehoi.LeHoi;
+import model.thoiky.ThoiKy;
 
 import java.util.ArrayList;
 

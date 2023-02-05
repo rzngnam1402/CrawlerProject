@@ -9,8 +9,7 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-import model_crawler.sukien.SuKien;
-import org.jsoup.nodes.Element;
+import model.sukien.SuKien;
 
 import java.util.ArrayList;
 
