@@ -50,7 +50,7 @@ public class LeHoiController implements Initializable {
         listView_leHoi.setCellFactory(new Callback<ListView<String>, ListCell<String>>() {
             @Override
             public ListCell<String> call(ListView<String> param) {
-                return new XCell();
+                return new XCell_LeHoi();
             }
         });
         listView_leHoi.getItems().addAll(words);
