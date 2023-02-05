@@ -49,7 +49,7 @@ public class SuKienController implements Initializable {
         listView_suKien.setCellFactory(new Callback<ListView<String>, ListCell<String>>() {
             @Override
             public ListCell<String> call(ListView<String> param) {
-                return new XCell();
+                return new XCell_SuKien();
             }
         });
         listView_suKien.getItems().addAll(words);
