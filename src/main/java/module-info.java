@@ -8,12 +8,12 @@ module com.example.ui {
     requires com.google.gson;
     requires javafx.base;
 
-    opens com.example.ui to javafx.fxml;
+    opens UI to javafx.fxml;
     opens model.nhanvat to com.google.gson;
     opens model.lehoi to com.google.gson;
     opens model.thoiky to com.google.gson;
     opens model.diadiem to com.google.gson;
     opens model.sukien to com.google.gson;
 
-    exports com.example.ui;
+    exports UI;
 }

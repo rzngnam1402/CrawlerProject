@@ -1,4 +1,4 @@
-package com.example.ui;
+package UI;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -21,20 +21,21 @@ import java.util.ArrayList;
 
 import static javafx.scene.text.TextAlignment.CENTER;
 
-public class NewWindowNhanVatInfo {
-    public static EventHandler<ActionEvent> nhanVatInfoWindow(String ten) {
-        EventHandler<ActionEvent> event = new EventHandler<ActionEvent>() {
+public class XCell_NhanVat extends XCell {
+    public XCell_NhanVat() {
+        super();
+        button.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
                 // Check xem nhân vật có trong file json hay không
                 ArrayList<NhanVat> listNhanVat = ReadDataFromJson.readNhanVatData();
                 NhanVat nhanVatInfo = new NhanVat();
                 for (NhanVat nhanVat : listNhanVat) {
-                    if (nhanVat.getTen().equals(ten) || nhanVat.getTenKhac().equals(ten)) {
+                    if (nhanVat.getTen().equals(lastItem) || nhanVat.getTenKhac().equals(lastItem)) {
                         nhanVatInfo = nhanVat;
                         break;
                     } else {
-                        nhanVatInfo.setTen(ten);
+                        nhanVatInfo.setTen(lastItem);
                     }
                 }
 
@@ -79,7 +80,6 @@ public class NewWindowNhanVatInfo {
                 catch (Exception e){
                 }
                 tenImage.add(tenNhanVat, 0, 1);
-                nhanVatInfoWindow.getChildren().add(tenImage);
 
                 //Create gridpand
                 GridPane gridPane = new GridPane();
@@ -160,7 +160,7 @@ public class NewWindowNhanVatInfo {
                 gridPane.add(new Text("Hậu duệ: "), 0, 18);
                 if (hauDue != null) {
                     int i = 0;
-                    int j = 0;
+                    int j =0;
                     GridPane gridPaneHauDue = new GridPane();
                     for (String haudue : hauDue) {
                         Button hauDueButton = new Button(haudue);
@@ -188,7 +188,6 @@ public class NewWindowNhanVatInfo {
                 newWindow.setScene(nhanVatInfoScene);
                 newWindow.show();
             }
-        };
-        return event;
+        });
     }
 }

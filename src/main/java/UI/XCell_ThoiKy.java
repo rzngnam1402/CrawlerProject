@@ -1,4 +1,4 @@
-package com.example.ui;
+package UI;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -9,7 +9,6 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-import model.lehoi.LeHoi;
 import model.thoiky.ThoiKy;
 
 import java.util.ArrayList;
