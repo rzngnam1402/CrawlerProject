@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="fix-worlspace">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/NewWindowDiaDiemInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_DiaDiem.java" afterDir="false" />
+    <list default="true" id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="create-diadiem-info-window-and-refactor-code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NhanVat.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/DiaDiemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/DiaDiemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/NewWindowNhanVatInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/NewWindowNhanVatInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_NhanVat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_NhanVat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jsondata/DiaDiem.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jsondata/DiaDiem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

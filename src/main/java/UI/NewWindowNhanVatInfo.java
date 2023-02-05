@@ -30,7 +30,7 @@ public class NewWindowNhanVatInfo {
                 ArrayList<NhanVat> listNhanVat = ReadDataFromJson.readNhanVatData();
                 NhanVat nhanVatInfo = new NhanVat();
                 for (NhanVat nhanVat : listNhanVat) {
-                    if (nhanVat.getTen().equals(ten) || nhanVat.getTenKhac().equals(ten)) {
+                    if (nhanVat.getTen().equals(ten) || nhanVat.getTenKhac().equals(ten) && !ten.equals("Không rõ")) {
                         nhanVatInfo = nhanVat;
                         break;
                     } else {

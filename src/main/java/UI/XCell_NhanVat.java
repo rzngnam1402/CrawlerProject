@@ -31,7 +31,7 @@ public class XCell_NhanVat extends XCell {
                 ArrayList<NhanVat> listNhanVat = ReadDataFromJson.readNhanVatData();
                 NhanVat nhanVatInfo = new NhanVat();
                 for (NhanVat nhanVat : listNhanVat) {
-                    if (nhanVat.getTen().equals(lastItem) || nhanVat.getTenKhac().equals(lastItem)) {
+                    if (nhanVat.getTen().equals(lastItem) || nhanVat.getTenKhac().equals(lastItem) && !lastItem.equals("Không rõ")) {
                         nhanVatInfo = nhanVat;
                         break;
                     } else {
