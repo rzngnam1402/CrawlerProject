@@ -1,4 +1,4 @@
-package com.example.ui;
+package UI;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -82,7 +82,6 @@ public class XCell_NhanVat extends XCell {
                 catch (Exception e){
                 }
                 tenImage.add(tenNhanVat, 0, 1);
-                nhanVatInfoWindow.getChildren().add(tenImage);
 
                 //Create gridpand
                 GridPane gridPane = new GridPane();

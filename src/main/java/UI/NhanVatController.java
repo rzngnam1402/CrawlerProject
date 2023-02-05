@@ -1,13 +1,11 @@
-package com.example.ui;
+package UI;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.ListCell;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.util.Callback;
-import model.diadiem.DiaDiem;
+import model.nhanvat.NhanVat;
 
 import java.io.IOException;
 import java.net.URL;
@@ -17,15 +15,14 @@ import java.util.List;
 import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 
-public class DiaDiemController implements Initializable {
-
+public class NhanVatController implements Initializable {
     ArrayList<String> words = bla();
-    private ArrayList<String > bla() {
-        ArrayList<DiaDiem> listDiaDiem = ReadDataFromJson.readDiaDiemData();
-        ArrayList<String> word = new ArrayList<>();
-        for (DiaDiem p : listDiaDiem){
-            word.add(p.getTen());
 
+    private ArrayList<String > bla() {
+        ArrayList<NhanVat> listNhanVat = ReadDataFromJson.readNhanVatData();
+        ArrayList<String> word = new ArrayList<>();
+        for (NhanVat p : listNhanVat){
+            word.add(p.getTen());
         }
         return word;
     }
@@ -35,7 +32,7 @@ public class DiaDiemController implements Initializable {
     @FXML
     private TextField searchBar;
     @FXML
-    private ListView<String> listView_diaDiem;
+    private ListView<String> listView_nhanVat;
 
     public void switchToMainMenuInOther(ActionEvent event) throws IOException {
         SceneController.switchToMainMenu(event);
@@ -43,28 +40,26 @@ public class DiaDiemController implements Initializable {
 
     @FXML
     void search() {
-        listView_diaDiem.getItems().clear();
-        listView_diaDiem.getItems().addAll(searchList(searchBar.getText(), words));
+        listView_nhanVat.getItems().clear();
+        listView_nhanVat.getItems().addAll(searchList(searchBar.getText(), words));
     }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        listView_diaDiem.setCellFactory(new Callback<ListView<String>, ListCell<String>>() {
+        listView_nhanVat.setCellFactory(new Callback<ListView<String>, ListCell<String>>() {
             @Override
             public ListCell<String> call(ListView<String> param) {
-                return new XCell();
+                return new XCell_NhanVat();
             }
         });
-        listView_diaDiem.getItems().addAll(words);
+        listView_nhanVat.getItems().addAll(words);
     }
 
-    private List<String> searchList(String searchWords, ArrayList<String> listOfStrings) {
+    private List<String> searchList(String searchWords, List<String> listOfStrings) {
 
         List<String> searchWordsArray = Arrays.asList(searchWords.trim().split(" "));
 
         return listOfStrings.stream().filter(input -> searchWordsArray.stream().allMatch(word ->
                 input.toLowerCase().contains(word.toLowerCase()))).collect(Collectors.toList());
     }
-
-
 }
