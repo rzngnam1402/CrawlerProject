@@ -1,4 +1,4 @@
-package model_crawler.nhanvat;
+package model.nhanvat;
 
 import com.google.gson.Gson;
 import org.jsoup.Jsoup;

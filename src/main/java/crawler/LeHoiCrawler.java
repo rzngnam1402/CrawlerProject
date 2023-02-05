@@ -1,6 +1,6 @@
 package crawler;
 
-import model_crawler.lehoi.LeHoi;
+import model.lehoi.LeHoi;
 
 import java.io.IOException;
 

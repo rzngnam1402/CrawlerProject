@@ -1,6 +1,6 @@
 package crawler;
 
-import model_crawler.sukien.SuKien;
+import model.sukien.SuKien;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;

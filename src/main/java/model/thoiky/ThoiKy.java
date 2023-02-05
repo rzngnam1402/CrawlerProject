@@ -1,4 +1,4 @@
-package model_crawler.thoiky;
+package model.thoiky;
 
 import com.google.gson.Gson;
 import org.jsoup.Jsoup;

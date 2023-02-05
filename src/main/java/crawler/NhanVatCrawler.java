@@ -1,6 +1,6 @@
 package crawler;
 
-import model_crawler.nhanvat.NhanVat;
+import model.nhanvat.NhanVat;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcdaaf0d-022c-4293-af1d-7241bfd5964c" name="Changes" comment="fix-nhanvat-info-window-and-create-thoiky-info-window">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_SuKien.java" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/NewWindowNhanVatInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/NewWindowNhanVatInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_NhanVat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ui/XCell_NhanVat.java" afterDir="false" />
     </list>

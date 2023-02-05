@@ -7,7 +7,7 @@ import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.util.Callback;
-import model_crawler.thoiky.ThoiKy;
+import model.thoiky.ThoiKy;
 
 import java.io.IOException;
 import java.net.URL;

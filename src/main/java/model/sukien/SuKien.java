@@ -1,4 +1,4 @@
-package model_crawler.sukien;
+package model.sukien;
 
 
 import com.google.gson.Gson;
@@ -72,7 +72,7 @@ public class SuKien {
 
         Writer writer = Files.newBufferedWriter(Paths.get("src/main/java/jsondata/SuKien.json"));
 
-        ArrayList<SuKien> danhsachsukien = new ArrayList<>();
+        ArrayList<SuKien> danhSachSuKien = new ArrayList<>();
         for (String url : urls) {
             try {
                 SuKien motSuKien = new SuKien();
@@ -236,14 +236,14 @@ public class SuKien {
                 } else {
                     System.out.print("]\n");
                 }
-                danhsachsukien.add(motSuKien);
+                danhSachSuKien.add(motSuKien);
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
 
-        System.out.println(danhsachsukien);
-        gson.toJson(danhsachsukien, writer);
+        System.out.println(danhSachSuKien);
+        gson.toJson(danhSachSuKien, writer);
         writer.close();
     }
 }

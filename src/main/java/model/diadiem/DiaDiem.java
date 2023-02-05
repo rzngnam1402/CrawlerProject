@@ -1,4 +1,4 @@
-package model_crawler.diadiem;
+package model.diadiem;
 
 import com.google.gson.Gson;
 import org.jsoup.Jsoup;
@@ -27,14 +27,14 @@ public class DiaDiem {
     protected ArrayList<String> links = new ArrayList<>();
 
     public DiaDiem() {
-        this.viTri = "Khong ro";
-        this.quocGia = "Khong ro";
-        this.diaChi = "Khong ro";
-        this.thongTin = "Khong ro";
-        this.khoiLap = "Khong ro";
-        this.toaDo = "Khong ro";
-        this.nguoiSangLap = "Khong ro";
-        this.leHoi = "Khong ro";
+        this.viTri = "Không rõ";
+        this.quocGia = "Không rõ";
+        this.diaChi = "Không rõ";
+        this.thongTin = "Không rõ";
+        this.khoiLap = "Không rõ";
+        this.toaDo = "Không rõ";
+        this.nguoiSangLap = "Không rõ";
+        this.leHoi = "Không rõ";
     }
 
     public void setTen(String ten) {

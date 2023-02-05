@@ -7,7 +7,7 @@ import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.util.Callback;
-import model_crawler.sukien.SuKien;
+import model.sukien.SuKien;
 
 import java.io.IOException;
 import java.net.URL;
