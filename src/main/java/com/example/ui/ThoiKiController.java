@@ -50,7 +50,7 @@ public class ThoiKiController implements Initializable {
         listView_thoiKi.setCellFactory(new Callback<ListView<String>, ListCell<String>>() {
             @Override
             public ListCell<String> call(ListView<String> param) {
-                return new XCell();
+                return new XCell_ThoiKy();
             }
         });
         listView_thoiKi.getItems().addAll(words);

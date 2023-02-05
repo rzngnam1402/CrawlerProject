@@ -9,25 +9,23 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-import model_crawler.lehoi.LeHoi;
 import model_crawler.thoiky.ThoiKy;
 
 import java.util.ArrayList;
 
-public class XCell_ThoiKy extends XCell {
-    public  XCell_ThoiKy(){
-        super();
-        button.setOnAction(new EventHandler<ActionEvent>() {
+public class NewWindowThoiKyInfo {
+    public static EventHandler<ActionEvent> thoiKyInfoWindow(String tenThoiKy){
+        EventHandler<ActionEvent> event = new EventHandler<ActionEvent>(){
             @Override
             public void handle(ActionEvent actionEvent) {
                 ArrayList<ThoiKy> listThoiKy = ReadDataFromJson.readThoiKyData();
                 ThoiKy thoiKyInfo = new ThoiKy();
                 for (ThoiKy thoiKy : listThoiKy) {
-                    if (thoiKy.getThoiKy().equals(lastItem) || thoiKy.getTenTrieuDai().equals(lastItem)) {
+                    if (thoiKy.getThoiKy().equals(tenThoiKy) || thoiKy.getTenTrieuDai().equals(tenThoiKy)) {
                         thoiKyInfo = thoiKy;
                         break;
                     } else {
-                        thoiKy.setThoiKy(lastItem);
+                        thoiKy.setThoiKy(tenThoiKy);
                     }
                 }
                 Text tenTrieuDai = new Text(thoiKyInfo.getTenTrieuDai());
@@ -82,6 +80,7 @@ public class XCell_ThoiKy extends XCell {
                 newWindow.setScene(thoiKyInfoScene);
                 newWindow.show();
             }
-        });
+        };
+        return event;
     }
 }

@@ -14,11 +14,10 @@ import model_crawler.lehoi.LeHoi;
 import java.util.ArrayList;
 
 public class NewWindowLehoiInfo {
-    public static EventHandler<ActionEvent> nhanVatInfoWindow(String tenLeHoi){
+    public static EventHandler<ActionEvent> leHoiInfoWindow(String tenLeHoi){
         EventHandler<ActionEvent> event = new EventHandler<ActionEvent>(){
             @Override
             public void handle(ActionEvent actionEvent) {
-                // Check xem nhân vật có trong file json hay không
                 ArrayList<LeHoi> listLeHoi = ReadDataFromJson.readLeHoiData();
                 LeHoi leHoiInfo = new LeHoi();
                 for (LeHoi leHoi : listLeHoi) {
@@ -36,7 +35,7 @@ public class NewWindowLehoiInfo {
                 Text tenLeHoi = new Text(leHoiInfo.getTenLeHoi());
                 Text lanDauToChucText = new Text("Không rõ");
                 Button lanDauToChucBtn = new Button(leHoiInfo.getLanDauToChuc());
-
+                lanDauToChucBtn.setOnAction(NewWindowThoiKyInfo.thoiKyInfoWindow(leHoiInfo.getLanDauToChuc()));
                 ArrayList<String> nhanVatLienQuan = leHoiInfo.getNhanVatLienQuan();
                 Text ghiChu = new Text(leHoiInfo.getGhiChu());
                 //Create gridpand

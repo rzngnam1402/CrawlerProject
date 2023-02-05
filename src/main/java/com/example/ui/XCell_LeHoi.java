@@ -20,7 +20,6 @@ public class XCell_LeHoi extends XCell {
         button.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
-                // Check xem nhân vật có trong file json hay không
                 ArrayList<LeHoi> listLeHoi = ReadDataFromJson.readLeHoiData();
                 LeHoi leHoiInfo = new LeHoi();
                 for (LeHoi leHoi : listLeHoi) {
@@ -38,7 +37,7 @@ public class XCell_LeHoi extends XCell {
                 Text tenLeHoi = new Text(leHoiInfo.getTenLeHoi());
                 Text lanDauToChucText = new Text("Không rõ");
                 Button lanDauToChucBtn = new Button(leHoiInfo.getLanDauToChuc());
-
+                lanDauToChucBtn.setOnAction(NewWindowThoiKyInfo.thoiKyInfoWindow(leHoiInfo.getLanDauToChuc()));
                 ArrayList<String> nhanVatLienQuan = leHoiInfo.getNhanVatLienQuan();
                 Text ghiChu = new Text(leHoiInfo.getGhiChu());
                 //Create gridpand
